@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\data\\studentsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\data\\studentsystemcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\appstudentorcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\appstudentorcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\models\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\models\\homework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\models\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|c:\\users\\a.mourad\\source\\repos\\studentsystem\\studentsystem\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F478BD9-E59F-4B80-A3EE-6B006085CDEE}|StudentSystem\\StudentSystem.csproj|solutionrelative:studentsystem\\models\\studentcourse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppStudentOrCourse.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\AppStudentOrCourse.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\AppStudentOrCourse.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\AppStudentOrCourse.cs",
+              "RelativeToolTip": "StudentSystem\\AppStudentOrCourse.cs",
+              "ViewState": "AQIAAHUAAAAAAAAAAAAmwHsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-21T15:01:33.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Program.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Program.cs",
+              "RelativeToolTip": "StudentSystem\\Program.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T13:50:16.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentSystemContext.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Data\\StudentSystemContext.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Data\\StudentSystemContext.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Data\\StudentSystemContext.cs",
+              "RelativeToolTip": "StudentSystem\\Data\\StudentSystemContext.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAuwA0AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T14:11:17.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Student.cs",
+              "RelativeToolTip": "StudentSystem\\Models\\Student.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAAFAAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T14:17:13.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Course.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Course.cs",
+              "RelativeToolTip": "StudentSystem\\Models\\Course.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAzwB0AAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:16:11.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StudentCourse.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\StudentCourse.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Models\\StudentCourse.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\StudentCourse.cs",
+              "RelativeToolTip": "StudentSystem\\Models\\StudentCourse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-20T18:02:16.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Resource.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Models\\Resource.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Resource.cs",
+              "RelativeToolTip": "StudentSystem\\Models\\Resource.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBcAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:24:13.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Homework.cs",
+              "DocumentMoniker": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Homework.cs",
+              "RelativeDocumentMoniker": "StudentSystem\\Models\\Homework.cs",
+              "ToolTip": "C:\\Users\\A.mourad\\source\\repos\\StudentSystem\\StudentSystem\\Models\\Homework.cs",
+              "RelativeToolTip": "StudentSystem\\Models\\Homework.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T16:31:43.948Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
