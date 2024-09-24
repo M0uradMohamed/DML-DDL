@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using StudentSystem.Data;
 using StudentSystem.Models;
 using System;
@@ -15,6 +15,7 @@ namespace StudentSystem
        public static StudentSystemContext context = new StudentSystemContext();
         public static void menuDisplay()
         {
+            Console.WriteLine("--------------------------------------------");
             Console.WriteLine("type (1) to enter a new student ");
             Console.WriteLine("type (2) to enter a new course ");
             Console.WriteLine("type (3) to exit ");
@@ -23,65 +24,76 @@ namespace StudentSystem
 
         public static void createStudnet()
         {
-            context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT students ON");
 
             var student = new Student();
-                student.enterStudentId(context);
+
                 student.enterStudentName();
                 student.enterStudentPhone();
                 student.RegisteredOn = DateTime.Now;
                 student.enterBirthday();
 
-                var studentcourse = new StudentCourse();
+            context.students.Add(student);
+            context.SaveChanges();
+
+
                 do
                 {
                     AppStudentOrCourse.displayCourses(context);
 
-                    Console.WriteLine("enter (1) if you want to join a course ");
-                    Console.WriteLine("enter (2) if you don't want to join any course ");
+                Console.WriteLine("--------------------------------------------");
+
+                Console.WriteLine("enter (A) if you want to join a course ");
+                    Console.WriteLine("enter (B) if you don't want to join any course ");
                     Console.Write("your input : ");
                     string input = Console.ReadLine();
-                    if (input == "1")
+                    if (input.ToLower() == "a")
                     {
-                        AppStudentOrCourse.joincourse(studentcourse, context, student);
+                        AppStudentOrCourse.joincourse( context, student);
                         Console.WriteLine("course joined successfully");
 
                     }
-                    else if (input == "2")
+                    else if (input.ToLower() == "b")
                     {
                         break;
                     }
                     else
                     {
-                        Console.WriteLine("unknown input");
+                    Console.WriteLine("--------------------------------------------");
+
+                    Console.WriteLine("unknown input");
                     }
 
                 } while (true);
-
-                context.students.Add(student);
-
-     context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT students OFF");
-
+            Console.WriteLine("--------------------------------------------");
             Console.WriteLine("student joined successfully");
+
+            context.SaveChanges();
 
 
         }
 
-        public static void joincourse(StudentCourse studentcourse, StudentSystemContext context, Student student)
+        public static void joincourse( StudentSystemContext context, Student student)
         {
-            int courseId = student.enterCourseID(context);
+            StudentCourse studentcourse = new StudentCourse();
+
+            int courseid = AppStudentOrCourse.enterCourseID(context);
             studentcourse.StudentId = student.StudentId;
-            studentcourse.CourseId = courseId;
+            studentcourse.CourseId = courseid;
 
             context.studentsCourses.Add(studentcourse);
+            context.SaveChanges();
         }
 
         public static void displayCourses(StudentSystemContext context)
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.WriteLine("course joining");
             var result = context.courses.ToList();
             foreach (var item in result)
             {
+                Console.WriteLine("--------------------------------------------");
+
                 Console.WriteLine($"course id : {item.CourseId} , course name: {item.Name }, course price = {item.Price}");
                 Console.WriteLine($"course Description :{item.Description}");
             }
@@ -98,6 +110,8 @@ namespace StudentSystem
                 }
                 catch (FormatException)
                 {
+                    Console.WriteLine("--------------------------------------------");
+
                     Console.WriteLine("unknown input");
                     return (number, false);
                 }
@@ -108,11 +122,9 @@ namespace StudentSystem
 
         public static void createCourse()
         {
-            context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT courses ON");
 
             var course = new Course();
 
-            course.courseId(context);
             course.enterCourseName();
             course.enterDescription();
             course.enterStartDate();
@@ -124,8 +136,27 @@ namespace StudentSystem
             Console.WriteLine("course add succefully");
 
             context.SaveChanges();
-            context.Database.ExecuteSqlRaw("SET IDENTITY_INSERT courses ON");
 
+        }
+      static public int enterCourseID(StudentSystemContext context)
+        {
+
+            do
+            {
+                Console.WriteLine("--------------------------------------------");
+                Console.Write("enter the wanted course id :");
+                var checkCourseId = AppStudentOrCourse.checkInt();
+
+                if (checkCourseId.Item1 >= 1 && checkCourseId.Item1 <= context.courses.ToList().Count())
+                {
+                    return checkCourseId.Item1;
+                }
+                else
+                {
+                    Console.WriteLine("--------------------------------------------");
+                    Console.WriteLine("out of course range");
+                }
+            } while (true);
         }
     }
 }
