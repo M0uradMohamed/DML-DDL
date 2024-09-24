@@ -1,4 +1,4 @@
-﻿using StudentSystem.Data;
+using StudentSystem.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,18 +27,24 @@ namespace StudentSystem.Models
 
         public void enterCourseName()
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.Write("Enter course name : ");
             Name = Console.ReadLine();
         }
 
         public void enterDescription()
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.Write("Enter course Description : ");
             Description = Console.ReadLine();
         }
 
         internal void enterEndDate()
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.WriteLine("enter course end date");
             Console.WriteLine("enter the year");
                     int year = int.Parse(Console.ReadLine());
@@ -51,6 +57,8 @@ namespace StudentSystem.Models
 
         public void enterStartDate()
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.WriteLine("enter course start date");
             Console.WriteLine("enter the year");
             int year = int.Parse(Console.ReadLine());
@@ -63,6 +71,8 @@ namespace StudentSystem.Models
 
         public void enterPrice()
         {
+            Console.WriteLine("--------------------------------------------");
+
             Console.WriteLine("enter course prices");
             var result = AppStudentOrCourse.checkInt();
             Price = result.Item1;
