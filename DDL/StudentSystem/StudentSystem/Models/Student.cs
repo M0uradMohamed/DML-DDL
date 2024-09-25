@@ -19,11 +19,6 @@ namespace StudentSystem.Models
         public ICollection<Course> Courses { get; set; }
         public ICollection<Homework> Homeworks { get; set; }
 
-        public  void enterStudentId( StudentSystemContext context)
-        {
-            var studentCount = context.students.Count();
-            StudentId = studentCount+1;
-        }
 
         public void enterStudentName()
         {
